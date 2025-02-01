@@ -1,0 +1,15 @@
+create database elizondoCrudTest
+
+use elizondoCrudTest;
+
+create table Tareas(IdTarea int primary key identity,
+Titulo varchar(50),
+Descripcion varchar(50) NOT NULL,
+Estado varchar(20) NOT NULL  CHECK (Estado IN ('pending' , 'fullfilled')),
+Fecha DATE NOT NULL
+)
+
+select * from Tareas
+
+
+

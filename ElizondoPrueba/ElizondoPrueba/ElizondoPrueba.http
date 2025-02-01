@@ -1,0 +1,6 @@
+@ElizondoPrueba_HostAddress = http://localhost:5022
+
+GET {{ElizondoPrueba_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
